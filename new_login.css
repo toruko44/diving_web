@@ -1,0 +1,105 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #f5f5f5;
+  background-image:url(home.JPG) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#wrapper{
+  transition: transform 0.3s;
+}
+header{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100px;
+}
+.header-logo{
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  height: 40px;
+  margin-left: 20px;
+  opacity: 0.4;
+  position: fixed;
+  z-index: 10px;
+  width: 90%;
+}
+header h4{
+  margin: 10px 0px 10px 20px;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  margin: 0 0 0  auto;
+}
+header li{
+  line-height: 30px;
+  margin: 5px 10px;
+}
+header a{
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1px;
+}
+header a:hover{
+  background-color: black;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.fa-search{
+  padding: 1px;
+  display: inline-block;
+  margin-right: 10px;
+}
+#nav{
+  position: fixed;
+  right:-270px;
+  top: 0;
+  width: 270px;
+  height: 100%;
+  background-color: #c1e4e9;
+  transition: transform 0.3s;
+}
+.show{
+  transform:translate3d(-270px,0,0);
+}
+.register{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #add8e6;
+  width:25%;
+  border-radius: 20px;
+}
+.register p{
+  padding-top: 10px;
+  margin-left: 10px;
+}
+.register dl{
+  margin-left: 10px;
+}
+.register dt{
+  margin-top: 10px;
+}
+.submit{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.required{
+  background-color: #cd5c5c;
+  margin-left: 5px;
+}
+.error {
+	font-size: 90%;
+	color: #BB1850;
+}
+#sbox1{
+  margin-left: 10px;
+  border-radius: 10px;
+}
+#sbtn{
+}

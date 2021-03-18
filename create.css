@@ -1,0 +1,73 @@
+  body{
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+  #wrapper{
+    transition: transform 0.3s;
+  }
+  header{
+    background-image:url(home.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+  }
+  .header-logo{
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    height: 40px;
+    margin-left: 20px;
+    opacity: 0.4;
+    position: fixed;
+    z-index: 10px;
+    width: 90%;
+  }
+  header h4{
+    margin: 10px 0px 10px 20px;
+  }
+  header ul{
+    list-style: none;
+    display: flex;
+    margin: 0 0 0  auto;
+  }
+  header li{
+    line-height: 30px;
+    margin: 5px 10px;
+  }
+  header a{
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1px;
+  }
+  header a:hover{
+    background-color: black;
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  .contents{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .content{
+    margin: 0 auto;
+    width: 60%;
+    height: 60%;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px 0;
+  } 
+  .contents input{
+    margin: 5px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .content textarea{
+    margin-left: 10px;
+    
+  }
